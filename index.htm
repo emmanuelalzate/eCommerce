@@ -1,0 +1,225 @@
+<!doctype html>
+    <html>
+	     <head>
+		        <title> My store </title>
+		    <style>
+			    img{width:250px}
+				img{height:200px}    
+					
+				body{
+					background: linear-gradient( to right, gold, blue);
+		    </style>
+		    <script>
+			function purchase1(){
+				var amount = parseFloat(document.getElementById("quantity1").value);
+				var build = "";
+				if (amount <= 50 && amount > 0){
+					var totalwotax = amount * 40000;
+					var tax = totalwotax * 0.0875;
+					var total = totalwotax + tax;
+					var result1 = document.getElementById("result1");
+					build += "subtotal: " + "$" + totalwotax + "<br>";
+					build += "tax: " + "$" + tax.toFixed(2) + "<br>";
+					build += "-------------" + "<br>";
+					build += "total: " + "$" + total + "<br>";
+					build += "<br>";
+				}
+				else if (amount > 50){
+					var result1 = document.getElementById("result1");
+					build += alert("only 50 in stock");
+				}
+			result1.innerHTML = build;
+			}
+			function purchase2(){
+				var amount = parseFloat(document.getElementById("quantity2").value);
+				var build = "";
+				if (amount <= 50 && amount > 0){
+					var totalwotax = amount * 8000;
+					var tax = totalwotax * 0.0875;
+					var total = totalwotax + tax;
+					var result2 = document.getElementById("result2");
+					build += "subtotal: " + "$" + totalwotax + "<br>";
+					build += "tax: " + "$" + tax.toFixed(2) + "<br>";
+					build += "-------------" + "<br>";
+					build += "total: " + "$" + total + "<br>";
+					build += "<br>";
+				}
+				else if (amount > 50){
+					var result2 = document.getElementById("result2");
+					build += alert("only 50 in stock");
+				}
+			result2.innerHTML = build;
+			}
+			function purchase3(){
+				var amount = parseFloat(document.getElementById("quantity3").value);
+				var build = "";
+				if (amount <= 50 && amount > 0){
+					var totalwotax = amount * 20000;
+					var tax = totalwotax * 0.0875;
+					var total = totalwotax + tax;
+					var result3 = document.getElementById("result3");
+					build += "subtotal: " + "$" + totalwotax + "<br>";
+					build += "tax: " + "$" + tax.toFixed(2) + "<br>";
+					build += "-------------" + "<br>";
+					build += "total: " + "$" + total + "<br>";
+					build += "<br>";
+				}
+				else if (amount > 50){
+					var result3 = document.getElementById("result3");
+					build += alert("only 50 in stock");
+				}
+			result3.innerHTML = build;
+			}
+			function purchase4(){
+				var amount = parseFloat(document.getElementById("quantity4").value);
+				var build = "";
+				if (amount <= 50 && amount > 0){
+					var totalwotax = amount * 6000;
+					var tax = totalwotax * 0.0875;
+					var total = totalwotax + tax;
+					var result4 = document.getElementById("result4");
+					build += "subtotal: " + "$" + totalwotax + "<br>";
+					build += "tax: " + "$" + tax.toFixed(2) + "<br>";
+					build += "-------------" + "<br>";
+					build += "total: " + "$" + total + "<br>";
+					build += "<br>";
+				}
+				else if (amount > 50){
+					var result4 = document.getElementById("result4");
+					build += alert("only 50 in stock");
+				}
+			result4.innerHTML = build;
+			}
+			function purchase5(){
+				var amount = parseFloat(document.getElementById("quantity5").value);
+				var build = "";
+				if (amount <= 50 && amount > 0){
+					var totalwotax = amount * 2000;
+					var tax = totalwotax * 0.0875;
+					var total = totalwotax + tax;
+					var result5 = document.getElementById("result5");
+					build += "subtotal: " + "$" + totalwotax + "<br>";
+					build += "tax: " + "$" + tax.toFixed(2) + "<br>";
+					build += "-------------" + "<br>";
+					build += "total: " + "$" + total + "<br>";
+					build += "<br>";
+				}
+                else if (amount > 50){
+					var result5 = document.getElementById("result5");
+					build += alert("only 50 in stock");				
+					
+				}
+				result5.innerHTML = build;
+			}
+			function purchase6(){
+				var amount = parseFloat(document.getElementById("quantity6").value);
+				var build = "";
+				if (amount <= 50 && amount > 0){
+					var totalwotax = amount * 14000;
+					var tax = totalwotax * 0.0875;
+					var total = totalwotax + tax;
+					var result6 = document.getElementById("result6");
+					build += "subtotal: " + "$" + totalwotax + "<br>";
+					build += "tax: " + "$" + tax.toFixed(2) + "<br>";
+					build += "-------------" + "<br>";
+					build += "total: " + "$" + total + "<br>";
+					build += "<br>";
+				}
+                else if (amount > 50){
+					var result6 = document.getElementById("result6");
+					build += alert("only 50 in stock");				
+					
+				}
+				result6.innerHTML = build;
+			}
+			function purchase7(){
+				var amount = parseFloat(document.getElementById("quantity7").value);
+				var build = "";
+				if (amount <= 50 && amount > 0){
+					var totalwotax = amount * 100000;
+					var tax = totalwotax * 0.0875;
+					var total = totalwotax + tax;
+					var result7 = document.getElementById("result7");
+					build += "subtotal: " + "$" + totalwotax + "<br>";
+					build += "tax: " + "$" + tax.toFixed(2) + "<br>";
+					build += "-------------" + "<br>";
+					build += "total: " + "$" + total + "<br>";
+					build += "<br>";
+				}
+                else if (amount > 50){
+					var result7 = document.getElementById("result7");
+					build += alert("only 50 in stock");				
+					
+				}
+				result7.innerHTML = build;
+			}
+		    
+		    
+		    
+			
+			</script>
+		</head>
+        <body>         
+		  <div>
+		       <h1> The best jewelry you can see in life  </h1>
+			   <button onclick="purchase1()">:
+               <h1> Rolex presidential </h1>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN8hx0e9Q203Kstb0PQcbYZ146ejW7CQnaAm8sdBe9dTtkqSS6" ><br> 			   
+               <span>$40,000</span>
+			   <p> Awesome rolex presidential with diamonds for men 18kt <p> PURCHASE
+ 			   <input type="text" id="quantity1">
+			   <div id="result1"></div>
+	    </button>
+		       <button onclick="purchase2()">:
+               <h1> Rolex datejust </h1>
+               <img src="https://d1hz1jz80fytvc.cloudfront.net/media/catalog/product/cache/1/image/800x600/9df78eab33525d08d6e5fb8d27136e95/2/2/222049619273_0.JPG" ><br>
+               <span>$8,000</span>
+               <p> LADIES ROLEX DATEJUST 18kt <p> PURCHASE
+               <input type="text" id="quantity2" >
+			   <div id="result2"></div>
+		</button>
+		       <button onclick="purchase3()">:
+			   <h1> Cuban link chain </h1>
+               <img src="https://www.jewelryunlimited.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/i/m/img_4427_2/solid-yellow-gold-diamond-miami-cuban-link-chain-necklace-6mm-24-inch-(7.0t)%20nck-21277-38.jpg" ><br>
+               <span>$20,000</span>
+               <p> Cuban link chain 18kt with Diamons <p> PURCHASE
+               <input type="text" id="quantity3" >
+			   <div id="result3"></div>
+		</button>
+		       <button onclick="purchase4()">:
+			   <h1> Ring  </h1>
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROevq9sMZ7tLYlMu4IW9C_d7DWnphx0mJzOv9rrUjFgNZsESwm" ><br>
+               <span>$6,000</span>
+               <p> Ring with diamons for men 18kt <p> PURCHASE
+               <input type="text" id="quantity4" >
+			   <div id="result4"></div>
+		</button>	   
+			   <button onclick="purchase5()">:
+               <h1> Earrings </h1>
+               <img src="http://dgjoyeros.com/image/cache/data/DIAMANTE/DIAMANTE%202/E2107109GY-MODELO-1-Y-1000x1000.jpg" ><br> 			   
+               <span>$2,000</span>
+			   <p> Awesome gold earrings for men with diamonds 18kt <p> PURCHASE
+ 			   <input type="text" id="quantity5" >
+				<div id="result5"></div>			   
+        </button>			   
+			   <button onclick="purchase6()">:
+               <h1> Hublot </h1>
+               <img src="https://cdn2.jomashop.com/media/catalog/product/cache/1/watermark/490x490/0a1186946c551c1cc1f1a1120b7bd9a0/h/u/hublot-classic-fusion-chronograph-black-sleleton-dial-black-rubber-men_s-watch-525ox0180lr.jpg" ><br> 			   
+               <span>$14,000</span>
+			   <p> Hublot, Rose gold 18kt <p> PURCHASE
+ 			   <input type="text" id="quantity6" >	
+			   <div id="result6"></div>
+        </button>
+               <button onclick="purchase7()">:
+               <h1> AUDEMARS PIGUET </h1>
+               <img src="https://wbcdn.worldsbest.com/uploads/59/11522/1437590683.jpg" ><br> 			   
+               <span>$100,000</span>
+			   <p>AUDEMARS PIGUET, rose gold 18kt with diamonds <p> PURCHASE
+ 			   <input type="text" id="quantity7" >
+               <div id="result7"></div>			   
+		</div>
+		</body>                                                                
+    </html>		
+			   
+			
+             			
